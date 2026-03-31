@@ -1,0 +1,42 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.moxion.android",
+      "sha256_cert_fingerprints": [
+        "C9:54:7A:6D:63:77:B5:1C:30:E4:0A:26:17:1A:16:12:13:6F:94:84:0E:A0:05:D2:66:49:39:EA:2A:98:F5:CD"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.moxion.android.staging",
+      "sha256_cert_fingerprints": [
+        "C9:54:7A:6D:63:77:B5:1C:30:E4:0A:26:17:1A:16:12:13:6F:94:84:0E:A0:05:D2:66:49:39:EA:2A:98:F5:CD"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.moxion.android.originalsaccess.staging",
+      "sha256_cert_fingerprints": [
+        "C9:54:7A:6D:63:77:B5:1C:30:E4:0A:26:17:1A:16:12:13:6F:94:84:0E:A0:05:D2:66:49:39:EA:2A:98:F5:CD"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.moxion.android.originalsaccess.production",
+      "sha256_cert_fingerprints": [
+        "C9:54:7A:6D:63:77:B5:1C:30:E4:0A:26:17:1A:16:12:13:6F:94:84:0E:A0:05:D2:66:49:39:EA:2A:98:F5:CD"
+      ]
+    }
+  }
+]
