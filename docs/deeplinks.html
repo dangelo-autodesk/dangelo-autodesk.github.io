@@ -2,13 +2,39 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+
+/* Default styles for all devices (mobile first) */
+body {
+    font-size: 16px;
+    /* Other mobile styles */
+}
+
+/* Styles for screens wider than 768px (tablets and desktops) */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 18px;
+        /* Tablet/Desktop specific styles */
+    }
+}
+
+/* Styles for screens wider than 1024px (desktops) */
+@media screen and (min-width: 1025px) {
+    body {
+        font-size: 20px;
+        /* More desktop-specific styles */
+    }
+}
+
+
     .row-container {
         display: flex; /* Makes the container a flex container */
         justify-content: space-between; /* Distributes items evenly with space between them */
         gap: 20px; /* Adds a gap between columns */
         padding: 10px;
         border: 1px solid #ccc;
+        padding-bottom: 50px; /
     }
 
     .row-header {
@@ -57,7 +83,7 @@
    
     <div class="row-item">
         <b>Play an Asset:</b>
-        <a href="https://dangelo-autodesk.github.io/l/app/open/player/10E69C0D58DCD0059AC88617C7410063">Play an Asset</a>
+        <a href="https://dangelo-autodesk.github.io/l/app/open/player/65138F18DDBC870A5CAC784440C661A7">Play an Asset</a>
     </div>
 </div>
 
